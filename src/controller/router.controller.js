@@ -26,6 +26,10 @@ const register = (req, res) => {
    res.render("pages/login")
 }
 
+const paypal = (req, res) => {
+    res.render("pages/paypal")
+}
+
 module.exports = {
-    home, product, checkout, store, login, profile, register
+    home, product, checkout, store, login, profile, register, paypal
 }
