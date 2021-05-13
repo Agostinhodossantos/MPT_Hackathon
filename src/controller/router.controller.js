@@ -30,6 +30,14 @@ const paypal = (req, res) => {
     res.render("pages/paypal")
 }
 
+const category = (req, res) => {
+    res.render("pages/category")
+}
+
+const productList = (req, res) => {
+    res.render("pages/product_list")
+}
+
 module.exports = {
-    home, product, checkout, store, login, profile, register, paypal
+    home, product, checkout, store, login, profile, register, paypal, category, productList
 }
