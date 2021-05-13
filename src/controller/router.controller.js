@@ -42,6 +42,10 @@ const sellerRegister = (req, res) => {
     res.render("pages/seller_register")
 }
 
+const admin = (req, res) => {
+    res.render("pages/dash")
+}
+
 module.exports = {
-    home, product, checkout, store, login, profile, register, paypal, category, productList, sellerRegister
+    home, product, checkout, store, login, profile, register, paypal, category, productList, sellerRegister, admin
 }
