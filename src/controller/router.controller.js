@@ -38,6 +38,10 @@ const productList = (req, res) => {
     res.render("pages/product_list")
 }
 
+const sellerRegister = (req, res) => {
+    res.render("pages/seller_register")
+}
+
 module.exports = {
-    home, product, checkout, store, login, profile, register, paypal, category, productList
+    home, product, checkout, store, login, profile, register, paypal, category, productList, sellerRegister
 }

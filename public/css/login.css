@@ -199,4 +199,8 @@ body {
   .control--checkbox input:disabled:checked ~ .control__indicator {
     background-color: #7e0cf5;
     opacity: .2; }
-  
+  /* submit btn */
+
+  .btn-submit {
+    background-color: #008000;
+  }

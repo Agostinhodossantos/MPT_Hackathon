@@ -1,5 +1,5 @@
 const {Router} = require("express")
-const {home, product, checkout, store, login, profile, register, paypal, category, productList} = require("../controller/router.controller")
+const {home, product, checkout, store, login, profile, register, paypal, category, productList, sellerRegister} = require("../controller/router.controller")
 const router = Router()
 
 router.get("/", home)
@@ -12,5 +12,6 @@ router.get("/register", register)
 router.get("/paypal/:id", paypal)
 router.get("/category", category)
 router.get("/product/sortby/:id", productList)
+router.get("/register/seller", sellerRegister)
 
 module.exports = router;

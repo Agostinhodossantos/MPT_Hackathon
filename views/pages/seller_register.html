@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<%- include('../partials/head.html') %>
+    </head>
+	<body>
+		<!-- HEADER -->
+		<header>
+			<!-- /TOP HEADER -->
+			<%- include('../partials/header.html') %>	
+			<!-- /MAIN HEADER -->
+		</header>
+		<!-- /HEADER -->
+
+		<!-- NAVIGATION -->
+		<nav id="navigation">
+			<!-- container -->
+			<%- include('../partials/menu.html') %>
+			<!-- /container -->
+		</nav>
+		<!-- /NAVIGATION -->
+
+		<!-- BREADCRUMB -->
+
+		<!-- /BREADCRUMB -->
+
+		<!-- SECTION -->
+		<div class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+
+					<div class="col-md-7">
+						<!-- Billing Details -->
+						<div class="billing-details">
+							<div class="section-title">
+								<h3 class="title"> cadastro do vendedor </h3>
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="first-name" placeholder="Nome">
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="last-name" placeholder="Apelido">
+							</div>
+						
+							<div class="form-group">
+								<input class="input" type="text" name="address" placeholder="Distrito">
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="city" placeholder="Bairo/Av">
+							</div>
+                            <div class="form-group">
+								<input class="input" type="text" name="city" placeholder="Mercado">
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="zip-code" placeholder="Numero da casa">
+							</div>
+							<div class="form-group">
+								<input class="input" type="tel" name="tel" placeholder="Telefone">
+							</div>
+                            <div class="form-group">
+                                <label class="custom-file-label" for="file" style="opacity: 0.6;">foto do BI(frente)</label>
+								<input class="input" type="file" name="file"  value="BI" placeholder="Telefone">
+							</div>
+
+                            <div class="form-group">
+                                <label class="custom-file-label" for="file" style="opacity: 0.6;">foto do BI(verso)</label>
+								<input class="input" type="file" name="file"  value="BI" placeholder="Telefone">
+							</div>
+                           
+                            
+							<!-- <div class="form-group">
+								<div class="input-checkbox">
+									<input type="checkbox" id="create-account">
+									<label for="create-account">
+										<span></span>
+										Criar conta?
+									</label>
+									<div class="caption">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+										<input class="input" type="password" name="password" placeholder="Enter Your Password">
+									</div>
+								</div>
+							</div> -->
+						</div>
+						<!-- /Billing Details -->
+						
+					</div>
+
+					<!-- Order Details -->
+					<div class="col-md-5 order-details">
+						<div class="section-title text-center">
+							<h3 class="title">Atenção</h3>
+						</div>
+						<div class="order-summary">
+							<div class="order-col">
+								<div><strong>Dados pessoais</strong></div>
+								<div><strong>TOTAL</strong></div>
+							</div>
+							<div class="order-products">
+								<div class="order-col">
+									<div>1- Indica o nome que esta no seu BI</div>
+									<div></div>
+								</div>
+								<div class="order-col">
+									<div>2 - Indica a sua localização real</div>
+									<div></div>
+								</div>
+                                <div class="order-col">
+									<div>3 - Indica o mercado apenas se tiver uma banca ou loja nesse mercado</div>
+									<div></div>
+								</div>
+                                <div class="order-col">
+									<div>4 - Após o cadastro, o pedido é enviado para análise com duração maxima de um dia</div>
+									<div></div>
+								</div>
+							</div>
+						
+							<div class="order-col">
+								<div><strong>TAXA</strong></div>
+								<div><strong class="order-total">MZN 20.00</strong></div>
+							</div>
+						</div>
+						<div class="payment-method">
+							<div class="input-radio">
+								<input type="radio" name="payment" id="payment-1">
+								<label for="payment-1">
+									<span></span>
+									Cartao de credito
+								</label>
+								<div class="caption">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								</div>
+							</div>
+							<div class="input-radio">
+								<input type="radio" name="payment" id="payment-2">
+								<label for="payment-2">
+									<span></span>
+									M-pesa
+								</label>
+								<div class="caption">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								</div>
+							</div>
+							<div class="input-radio">
+								<input type="radio" name="payment" id="payment-3">
+								<label for="payment-3">
+									<span></span>
+									Paypal 
+								</label>
+								<div class="caption">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								</div>
+							</div>
+						</div>
+						<div class="input-checkbox">
+							<input type="checkbox" id="terms">
+							<label for="terms">
+								<span></span> 
+								Li e aceito os  <a href="#">termos e condições</a>
+							</label>
+						</div>
+						<a href="#" class="primary-btn order-submit">Criar conta do vendedor</a>
+					</div>
+					<!-- /Order Details -->
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /SECTION -->
+
+		<!-- NEWSLETTER -->
+		
+		<!-- /NEWSLETTER -->
+
+		<!-- FOOTER -->
+		<footer id="footer">
+			<!-- top footer -->
+			<%- include('../partials/footer.html')%>
+			<!-- /bottom footer -->
+		</footer>
+		<!-- /FOOTER -->
+
+		<!-- jQuery Plugins -->
+		<script src="/js/jquery.min.js"></script>
+		<script src="/js/bootstrap.min.js"></script>
+		<script src="/js/slick.min.js"></script>
+		<script src="/js/nouislider.min.js"></script>
+		<script src="/js/jquery.zoom.min.js"></script>
+		<script src="/js/main.js"></script>
+
+	</body>
+</html>
